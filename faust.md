@@ -4,6 +4,8 @@
 
 `+ – * /`
 
+ogni operatore matematico implica la presenza di due segnali, rispettivamente a sinistra e a destra dell'operatore.
+
 ## gestione segnali
 
 `_` (trattino basso, identifica il segnale audio)
