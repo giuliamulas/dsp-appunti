@@ -6,9 +6,11 @@
 
 ogni operatore matematico implica la presenza di due segnali, rispettivamente a sinistra e a destra dell'operatore.
 
+le due espressioni `process = +;` e `process = _ + _;` sono equivalenti.
+
 ![somma](https://raw.githubusercontent.com/LSSN/appunti/master/code/somma-svg/process.png)
 
-ogni operatore matematico ha quindi due entrate ed una uscita.
+ogni operatore matematico necessita quindi di due entrate e restituisce una sola uscita.
 
 ## gestione segnali
 
@@ -18,7 +20,7 @@ ogni operatore matematico ha quindi due entrate ed una uscita.
 
 `,` (identifica un percorso parallelo)
 
-### Esempio di percorso seriale:
+### Percorso seriale:
 
 ```
 import("stdfaust.lib");
@@ -27,7 +29,7 @@ process = *(1.0): *(1.0);
 
 ![seriale](https://raw.githubusercontent.com/LSSN/appunti/master/code/seriale-svg/process.png)
 
-### Esempio di percorso parallelo:
+### Percorso parallelo:
 
 ```
 import("stdfaust.lib");
@@ -35,6 +37,15 @@ process = *(1.0), *(1.0);
 ```
 
 ![parallelo](https://raw.githubusercontent.com/LSSN/appunti/master/code/parallelo-svg/process.png)
+
+### Percorso ibrido:
+
+```
+import("stdfaust.lib");
+process = +,+:+;
+```
+
+![parallelo](https://raw.githubusercontent.com/LSSN/appunti/master/code/ibrido-svg/process.png)
 
 ## regole base
 
@@ -54,8 +65,6 @@ ogni riga termina con un `;`
 ## diagramma di flusso
 
 un digramma di flusso indica il percorso dei segnali ed i processi ad essi applicati.
-
-esempio di digramma di flusso.
 
 ![diagramma](https://raw.githubusercontent.com/LSSN/appunti/master/code/diagramma-svg/process.png)
 
