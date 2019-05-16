@@ -6,7 +6,7 @@
 
 ogni operatore matematico implica la presenza di due segnali, rispettivamente a sinistra e a destra dell'operatore.
 
-![somma](https://raw.githubusercontent.com/LSSN/appunti/master/img/somma.svg)
+![somma](https://raw.githubusercontent.com/LSSN/appunti/master/code/somma-svg/process.png)
 
 ## gestione segnali
 
