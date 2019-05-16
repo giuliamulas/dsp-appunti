@@ -6,7 +6,7 @@
 
 ogni operatore matematico implica la presenza di due segnali, rispettivamente a sinistra e a destra dell'operatore.
 
-le due espressioni `process = +;` e `process = _ + _;` sono equivalenti.
+le due espressioni `process = +;` e `process = _+_;` sono quindi equivalenti.
 
 ![somma](https://raw.githubusercontent.com/LSSN/appunti/master/code/somma-svg/process.png)
 
