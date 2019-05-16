@@ -12,11 +12,29 @@ ogni operatore matematico ha quindi due entrate ed una uscita.
 
 ## gestione segnali
 
-`_` (trattino basso, identifica il segnale audio)
+`_` (trattino basso, identifica il segnale audio, implicito negli operatori matematici)
 
-`:` (identificano un percorso seriale, ovvero in sequenza)
+`:` (identifica un percorso seriale, ovvero in sequenza)
 
 `,` (identifica un percorso parallelo)
+
+### Esempio di percorso seriale:
+
+```
+import("stdfaust.lib");
+process = *(1.0): *(1.0);
+```
+
+![seriale](https://raw.githubusercontent.com/LSSN/appunti/master/code/seriale-svg/process.png)
+
+### Esempio di percorso parallelo:
+
+```
+import("stdfaust.lib");
+process = *(1.0), *(1.0);
+```
+
+![parallelo](https://raw.githubusercontent.com/LSSN/appunti/master/code/parallelo-svg/process.png)
 
 ## regole base
 
