@@ -29,6 +29,8 @@ process = *(1.0): *(1.0);
 
 ![seriale](https://raw.githubusercontent.com/LSSN/appunti/master/code/seriale-svg/process.png)
 
+il programma in diagramma esegue due moltiplicazioni in sequenza tra loro.
+
 ### Percorso parallelo:
 
 ```
@@ -38,6 +40,8 @@ process = *(1.0), *(1.0);
 
 ![parallelo](https://raw.githubusercontent.com/LSSN/appunti/master/code/parallelo-svg/process.png)
 
+il programma in diagramma esegue due moltiplicazioni contemporanee ed indipendenti tra loro.
+
 ### Percorso ibrido:
 
 ```
@@ -46,6 +50,8 @@ process = +,+:+;
 ```
 
 ![parallelo](https://raw.githubusercontent.com/LSSN/appunti/master/code/ibrido-svg/process.png)
+
+il programma in diagramma esegue la somma di quattro segnali.
 
 ## regole base
 
