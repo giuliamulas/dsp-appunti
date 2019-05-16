@@ -8,6 +8,8 @@ ogni operatore matematico implica la presenza di due segnali, rispettivamente a 
 
 ![somma](https://raw.githubusercontent.com/LSSN/appunti/master/code/somma-svg/process.png)
 
+ogni operatore matematico ha quindi due entrate ed una uscita.
+
 ## gestione segnali
 
 `_` (trattino basso, identifica il segnale audio)
@@ -36,5 +38,7 @@ ogni riga termina con un `;`
 un digramma di flusso indica il percorso dei segnali ed i processi ad essi applicati.
 
 esempio di digramma di flusso.
+
+![diagramma](https://raw.githubusercontent.com/LSSN/appunti/master/code/diagramma-svg/process.png)
 
 abbiamo due segnali in entrata che vengono sommati tra loro e poi moltiplicati per una costante.
