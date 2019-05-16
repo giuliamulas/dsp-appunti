@@ -29,7 +29,7 @@ process = *(1.0): *(1.0);
 
 ![seriale](https://raw.githubusercontent.com/LSSN/appunti/master/code/seriale-svg/process.png)
 
-il programma in diagramma esegue due moltiplicazioni in sequenza tra loro.
+il programma esegue due moltiplicazioni in sequenza tra loro.
 
 ### Percorso parallelo:
 
@@ -40,7 +40,7 @@ process = *(1.0), *(1.0);
 
 ![parallelo](https://raw.githubusercontent.com/LSSN/appunti/master/code/parallelo-svg/process.png)
 
-il programma in diagramma esegue due moltiplicazioni contemporanee ed indipendenti tra loro.
+il programma esegue due moltiplicazioni contemporanee ed indipendenti tra loro.
 
 ### Percorso ibrido:
 
@@ -51,7 +51,7 @@ process = +,+:+;
 
 ![parallelo](https://raw.githubusercontent.com/LSSN/appunti/master/code/ibrido-svg/process.png)
 
-il programma in diagramma esegue la somma di quattro segnali.
+il programma esegue la somma di quattro segnali.
 
 ## regole base
 
@@ -61,8 +61,7 @@ ogni programma deve avere le seguenti righe:
 
 ```
 import("stdfaust.lib");
-
-process = scrivi qui il tuo programma ;
+process = scrivi qui il tuo programma;
 ```
 ogni programma può avere una sola riga `process`.
 
@@ -74,4 +73,4 @@ un digramma di flusso indica il percorso dei segnali ed i processi ad essi appli
 
 ![diagramma](https://raw.githubusercontent.com/LSSN/appunti/master/code/diagramma-svg/process.png)
 
-abbiamo due segnali in entrata che vengono sommati tra loro e poi moltiplicati per una costante.
+il programma esegue una somma dei due segnali in entrata e poi una moltiplicazione per una costante.
