@@ -28,7 +28,7 @@ import("stdfaust.lib");
 process = +;
 ```
 
-## 5. Scrivi un programma che abbia 4 entrate ed una sola uscita, somma delle 4 entrate.
+## 5. Scrivi un programma che abbia 4 entrate ed una sola uscita, somma delle 4 entrate.
 
 ```
 import("stdfaust.lib");
