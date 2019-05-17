@@ -1,20 +1,20 @@
 # Esercizi di DSP - 01
 
-## 1. Scrivi un programma che utilizzi i quattro operatori matematici in parallelo tra loro
+## 1. Scrivi un programma che utilizzi i quattro operatori matematici in parallelo
 
 ```
 import("stdfaust.lib");
 process = +;
 ```
 
-## 2. Scrivi un programma che utilizzi i quattro operatori matematici in serie tra loro
+## 2. Scrivi un programma che utilizzi i quattro operatori matematici in serie
 
 ```
 import("stdfaust.lib");
 process = +;
 ```
 
-## 3. Scrivi un programma che esegua due operazioni in sequenza che producano un segnale in uscita identico a quello in entrata
+## 3. Scrivi un programma che esegua due operazioni in sequenza e producano un segnale in uscita identico a quello in entrata
 
 ```
 import("stdfaust.lib");
