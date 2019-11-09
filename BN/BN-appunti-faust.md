@@ -13,10 +13,9 @@ Ogni operatore matematico necessita quindi di due entrate e restituisce una sola
  - `_` trattino basso, identifica il segnale audio, implicito negli operatori matematici
  - `:` identifica un percorso seriale, ovvero in sequenza
  - `,` identifica un percorso parallelo
- <!--
  - `<:` divide il percorso di segnale in molteplici percorsi paralleli ordinati tra loro
  - `:>` combina molteplici segnali paralleli in un percorso
- - `~` identifica una ricorsione -->
+ - `~` identifica una ricorsione 
 
 ### percorso seriale:
 
@@ -73,3 +72,4 @@ Un digramma di flusso indica il percorso dei segnali ed i processi ad essi appli
 ![diagramma](https://raw.githubusercontent.com/LSSN/appunti/master/code/diagramma-svg/process.png)
 
 Il programma esegue una somma dei due segnali in entrata e poi una moltiplicazione per una costante.
+
